@@ -1,0 +1,202 @@
+/* Common */
+
+body {
+  /*font-family: "Raleway";*/
+}
+
+.btn {
+  border-radius: 0px !important;
+}
+
+.heading-section .subheading {
+  color: #C42203;
+}
+/* Navbar */
+.ftco-navbar-light.scrolled .nav-item.active > a {
+  color: #141204 !important;
+}
+
+.header-btn {
+  width: 200px !important;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+/* Hero */
+
+.slider-text h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+.hero-wrap {
+  height: 768px;
+}
+
+.hero-wrap .container-fluid {
+  height: 768px;
+}
+
+.hero-wrap .overlay {
+  background: url("../../images/bg.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero-wrap .container-fluid {
+  height: 100%;
+}
+
+.services .icon:before {
+  background: #C42203;
+  opacity: 0.5;
+}
+
+.services .icon:after {
+  background: #C42203;
+  opacity: 0.5;
+}
+
+.btn.btn-primary {
+  background: #C42203 !important;
+  color: white !important;
+  border: none !important;
+}
+
+.btn.btn-primary:hover {
+  background: #a01c03 !important;
+  color: white !important;
+  border: none !important;
+}
+
+.btn.btn-primary:focus {
+  background: #a01c03 !important;
+  color: white !important;
+  border: none !important;
+}
+
+.hero-wrap .color-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.75;
+  background: #141204;
+  /*z-index: 1;*/
+}
+
+.heading-section h2 {
+  font-size: 2.5rem;
+}
+
+.heading-section p {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+  .slider-text {
+    padding-top: 150px;
+  }
+}
+
+
+/* Sponsors */
+
+.sponsors {
+  width: 100%;
+}
+
+/* About Page */
+.ftco-section .nav-pills .nav-link.active, .ftco-section .nav-pills .nav-link:hover {
+  background: #C42203;
+  border: 1px solid #C42203;
+}
+
+.ftco-section .nav-pills .nav-link {
+  border: 1px solid #C42203;
+  color: #C42203;
+}
+
+/* About */
+.img-fluid {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.block-10 {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.block-10 .person-info .name {
+  font-size: 1.5rem;
+}
+
+.block-10 .person-info .position {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.profile-company {
+  font-weight: bolder;
+}
+
+/* Events */
+
+.event-title, .event-description {
+  z-index: 1;
+}
+
+.event-card {
+  margin-bottom: 25px;
+  min-height: 380px;
+}
+
+.event-card-title {
+  font-size: 1.5rem;
+  margin-top: 37.5px;
+  opacity: 1;
+  color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.event-card-text {
+  font-size: 0.8rem;
+}
+
+.event-card-header {
+  height: 150px;
+}
+
+.event-card-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /*padding: 50px 30px;*/
+/*  height: 100%;
+  width: 100%;*/
+  opacity: 0.75;
+  transition: .5s ease;
+  background-color: black;
+  text-align: left;
+}
+
+/* Footer */
+
+.fas {
+  font-size: 3rem;
+  color: #141204;
+}
+
+.ftco-footer {
+  padding: 3em 0 4em 0;
+  background: #141204;
+}
